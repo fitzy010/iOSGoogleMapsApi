@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		547F58FBF498D4C76A1F72A6 /* libPods-GoogleApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA49C2F80E2726CDD6F898C /* libPods-GoogleApi.a */; };
 		B116A7A620702A090028C9CC /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = B116A7A520702A090028C9CC /* PodFile */; };
-		B12DD67620705E5100D95645 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DD67520705E5100D95645 /* config.swift */; };
+		B12DD67620705E5100D95645 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DD67520705E5100D95645 /* Config.swift */; };
 		B1680363206FEE1400E804EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1680362206FEE1400E804EC /* AppDelegate.swift */; };
 		B1680365206FEE1400E804EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1680364206FEE1400E804EC /* ViewController.swift */; };
 		B1680368206FEE1400E804EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1680366206FEE1400E804EC /* Main.storyboard */; };
@@ -41,7 +41,7 @@
 		3CA49C2F80E2726CDD6F898C /* libPods-GoogleApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DB7A77A4EF8FA936B92F0A /* Pods-GoogleApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleApi/Pods-GoogleApi.debug.xcconfig"; sourceTree = "<group>"; };
 		B116A7A520702A090028C9CC /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
-		B12DD67520705E5100D95645 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		B12DD67520705E5100D95645 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B168035F206FEE1400E804EC /* GoogleApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1680362206FEE1400E804EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1680364206FEE1400E804EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				B1680369206FEE1500E804EC /* Assets.xcassets */,
 				B168036B206FEE1500E804EC /* LaunchScreen.storyboard */,
 				B168036E206FEE1500E804EC /* Info.plist */,
-				B12DD67520705E5100D95645 /* config.swift */,
+				B12DD67520705E5100D95645 /* Config.swift */,
 			);
 			path = GoogleApi;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12DD67620705E5100D95645 /* config.swift in Sources */,
+				B12DD67620705E5100D95645 /* Config.swift in Sources */,
 				B1680365206FEE1400E804EC /* ViewController.swift in Sources */,
 				B1680363206FEE1400E804EC /* AppDelegate.swift in Sources */,
 			);
