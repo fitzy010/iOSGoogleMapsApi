@@ -62,13 +62,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: 43, longitude: -88)
         marker.title = "Center"
-        marker.snippet = "America"
+        marker.snippet = "North America"
         marker.map = mapView
         
         let markerTwo = GMSMarker()
         markerTwo.position = CLLocationCoordinate2D(latitude: 44, longitude: -89)
         markerTwo.title = "Not far from center"
-        markerTwo.snippet = "USA"
+        markerTwo.snippet = "NA"
         markerTwo.map = mapView
     }
 
